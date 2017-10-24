@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gunnarx/vsomeip.svg?branch=master)](https://travis-ci.org/gunnarx/vsomeip)
+
 ### vsomeip
 
 ##### Copyright

@@ -16,3 +16,11 @@ script:
 branches:
   only:
   - master
+
+# Coverity scan settings
+build_command_prepend: 
+- mkdir -p build
+- cd build && cmake ..
+
+build_command: make
+

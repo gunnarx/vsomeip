@@ -1,3 +1,11 @@
+**Travis CI on *master* branch**  
+[![Build Status](https://travis-ci.org/gunnarx/vsomeip.svg?branch=master)](https://travis-ci.org/gunnarx/vsomeip)
+
+**Coverity static-analysis on *coverity_scan* branch**  
+[![Static Analysis](https://scan.coverity.com/projects/7314/badge.svg?flat=1)](https://scan.coverity.com/projects/vsomeip)
+
+----
+
 ### vsomeip
 
 ##### Copyright

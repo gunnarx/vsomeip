@@ -1,0 +1,26 @@
+dist: trusty
+sudo: require
+
+language: cpp
+compiler: gcc
+
+install:
+  - sudo apt-get install libboost-system1.55-dev libboost-thread1.55-dev libboost-log1.55-dev
+
+script:
+- mkdir build
+- cd build && cmake ..
+- make -j8
+
+# branches whitelist
+branches:
+  only:
+  - master
+
+# Coverity scan settings
+build_command_prepend: 
+- mkdir -p build
+- cd build && cmake ..
+
+build_command: make
+
